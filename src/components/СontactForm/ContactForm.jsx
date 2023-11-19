@@ -6,20 +6,6 @@ import PropTypes from 'prop-types';
 
 export class ContactForm extends Component {
 
-    // toggleForm = (evt) => {
-    //   // console.log(evt.target);
-    //   const btnRef = evt.target;
-    //   const formRef = btnRef.nextSibling;
-    //   // console.log(formRef);
-  
-    //   if (btnRef.textContent === "Add") {
-    //     btnRef.textContent = "x";
-    //     formRef.classList.remove(`${css.visually_hidden}`)
-    //   } else if (btnRef.textContent === "x") {
-    //     btnRef.textContent = "Add";
-    //     formRef.classList.add(`${css.visually_hidden}`)
-    //   }
-    // }
   
   
     addContact = (evt) => {
